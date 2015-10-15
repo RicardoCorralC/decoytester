@@ -1,0 +1,831 @@
+
+<tr>
+    <td>T0759</td>
+    <td>750</td>
+    <td>109</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.356)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.347)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.tar.bz2>T0759.tar.bz2</a> (0.427)</td>
+</tr>
+
+
+<tr>
+    <td>T0762</td>
+    <td>750</td>
+    <td>280</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0762.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0762.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0762.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.925)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0762.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.922)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0762.tar.bz2>T0762.tar.bz2</a> (0.931)</td>
+</tr>
+
+
+<tr>
+    <td>T0763</td>
+    <td>1550</td>
+    <td>163</td>
+    <td>Very Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0763.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0763.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0763.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.198)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0763.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.194)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0763.tar.bz2>T0763.tar.bz2</a> (0.311)</td>
+</tr>
+
+
+<tr>
+    <td>T0764</td>
+    <td>450</td>
+    <td>341</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0764.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0764.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0764.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.885)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0764.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.885)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0764.tar.bz2>T0764.tar.bz2</a> (0.888)</td>
+</tr>
+
+
+<tr>
+    <td>T0765</td>
+    <td>1550</td>
+    <td>128</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0765.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0765.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0765.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.761)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0765.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.750)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0765.tar.bz2>T0765.tar.bz2</a> (0.785)</td>
+</tr>
+
+
+<tr>
+    <td>T0766</td>
+    <td>750</td>
+    <td>130</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0766.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0766.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0766.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.935)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0766.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.937)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0766.tar.bz2>T0766.tar.bz2</a> (0.954)</td>
+</tr>
+
+
+<tr>
+    <td>T0768</td>
+    <td>750</td>
+    <td>170</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0768.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0768.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0768.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.626)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0768.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.624)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0768.tar.bz2>T0768.tar.bz2</a> (0.865)</td>
+</tr>
+
+
+<tr>
+    <td>T0769</td>
+    <td>750</td>
+    <td>112</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0769.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0769.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0769.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.741)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0769.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.708)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0769.tar.bz2>T0769.tar.bz2</a> (0.782)</td>
+</tr>
+
+
+<tr>
+    <td>T0773</td>
+    <td>1550</td>
+    <td>77</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0773.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0773.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0773.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.812)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0773.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.778)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0773.tar.bz2>T0773.tar.bz2</a> (0.828)</td>
+</tr>
+
+
+<tr>
+    <td>T0778</td>
+    <td>690</td>
+    <td>127</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0778.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0778.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0778.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.929)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0778.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.964)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0778.tar.bz2>T0778.tar.bz2</a> (0.965)</td>
+</tr>
+
+
+<tr>
+    <td>T0779</td>
+    <td>1250</td>
+    <td>68</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0779.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0779.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0779.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0779.tar.bz2>T0779.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0782</td>
+    <td>750</td>
+    <td>135</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0782.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0782.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0782.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.687)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0782.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.660)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0782.tar.bz2>T0782.tar.bz2</a> (0.729)</td>
+</tr>
+
+
+<tr>
+    <td>T0784</td>
+    <td>750</td>
+    <td>155</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0784.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0784.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0784.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.937)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0784.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.944)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0784.tar.bz2>T0784.tar.bz2</a> (0.949)</td>
+</tr>
+
+
+<tr>
+    <td>T0785</td>
+    <td>1550</td>
+    <td>115</td>
+    <td>Very Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0785.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0785.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0785.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.261)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0785.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.228)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0785.tar.bz2>T0785.tar.bz2</a> (0.309)</td>
+</tr>
+
+
+<tr>
+    <td>T0786</td>
+    <td>750</td>
+    <td>264</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0786.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0786.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0786.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.782)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0786.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.777)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0786.tar.bz2>T0786.tar.bz2</a> (0.800)</td>
+</tr>
+
+
+<tr>
+    <td>T0787</td>
+    <td>750</td>
+    <td>153</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0787.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0787.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0787.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.235)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0787.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.220)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0787.tar.bz2>T0787.tar.bz2</a> (0.257)</td>
+</tr>
+
+
+<tr>
+    <td>T0788</td>
+    <td>450</td>
+    <td>481</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0788.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0788.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0788.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.897)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0788.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.900)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0788.tar.bz2>T0788.tar.bz2</a> (0.903)</td>
+</tr>
+
+
+<tr>
+    <td>T0792</td>
+    <td>750</td>
+    <td>80</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0792.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0792.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0792.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.672)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0792.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.686)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0792.tar.bz2>T0792.tar.bz2</a> (0.704)</td>
+</tr>
+
+
+<tr>
+    <td>T0795</td>
+    <td>710</td>
+    <td>141</td>
+    <td>Easy</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0795.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0795.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0795.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0795.tar.bz2>T0795.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0796</td>
+    <td>450</td>
+    <td>309</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0796.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0796.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0796.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.666)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0796.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.658)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0796.tar.bz2>T0796.tar.bz2</a> (0.715)</td>
+</tr>
+
+
+<tr>
+    <td>T0797</td>
+    <td>540</td>
+    <td>44</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0797.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0797.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0797.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.826)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0797.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.772)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0797.tar.bz2>T0797.tar.bz2</a> (0.948)</td>
+</tr>
+
+
+<tr>
+    <td>T0798</td>
+    <td>720</td>
+    <td>198</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0798.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0798.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0798.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.937)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0798.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.932)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0798.tar.bz2>T0798.tar.bz2</a> (0.955)</td>
+</tr>
+
+
+<tr>
+    <td>T0800</td>
+    <td>750</td>
+    <td>247</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0800.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0800.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0800.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.575)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0800.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.558)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0800.tar.bz2>T0800.tar.bz2</a> (0.602)</td>
+</tr>
+
+
+<tr>
+    <td>T0801</td>
+    <td>170</td>
+    <td>376</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0801.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0801.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0801.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.926)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0801.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.924)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0801.tar.bz2>T0801.tar.bz2</a> (0.943)</td>
+</tr>
+
+
+<tr>
+    <td>T0802</td>
+    <td>1550</td>
+    <td>122</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0802.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0802.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0802.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0802.tar.bz2>T0802.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0803</td>
+    <td>750</td>
+    <td>139</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0803.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0803.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0803.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.467)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0803.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.466)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0803.tar.bz2>T0803.tar.bz2</a> (0.524)</td>
+</tr>
+
+
+<tr>
+    <td>T0804</td>
+    <td>1550</td>
+    <td>202</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0804.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0804.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0804.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0804.tar.bz2>T0804.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0805</td>
+    <td>750</td>
+    <td>214</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0805.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0805.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0805.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.843)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0805.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.826)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0805.tar.bz2>T0805.tar.bz2</a> (0.858)</td>
+</tr>
+
+
+<tr>
+    <td>T0807</td>
+    <td>680</td>
+    <td>284</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0807.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0807.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0807.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.913)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0807.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.898)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0807.tar.bz2>T0807.tar.bz2</a> (0.922)</td>
+</tr>
+
+
+<tr>
+    <td>T0809</td>
+    <td>700</td>
+    <td>62</td>
+    <td>Easy</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0809.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0809.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0809.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0809.tar.bz2>T0809.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0811</td>
+    <td>270</td>
+    <td>255</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0811.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0811.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0811.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.941)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0811.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.941)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0811.tar.bz2>T0811.tar.bz2</a> (0.956)</td>
+</tr>
+
+
+<tr>
+    <td>T0812</td>
+    <td>1550</td>
+    <td>204</td>
+    <td>Very Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0812.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0812.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0812.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.536)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0812.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.538)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0812.tar.bz2>T0812.tar.bz2</a> (0.612)</td>
+</tr>
+
+
+<tr>
+    <td>T0813</td>
+    <td>750</td>
+    <td>307</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0813.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0813.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0813.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.922)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0813.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.921)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0813.tar.bz2>T0813.tar.bz2</a> (0.925)</td>
+</tr>
+
+
+<tr>
+    <td>T0815</td>
+    <td>270</td>
+    <td>106</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0815.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0815.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0815.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.885)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0815.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.872)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0815.tar.bz2>T0815.tar.bz2</a> (0.922)</td>
+</tr>
+
+
+<tr>
+    <td>T0816</td>
+    <td>1200</td>
+    <td>68</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0816.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0816.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0816.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.296)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0816.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.565)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0816.tar.bz2>T0816.tar.bz2</a> (0.721)</td>
+</tr>
+
+
+<tr>
+    <td>T0817</td>
+    <td>750</td>
+    <td>525</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0817.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0817.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0817.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.718)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0817.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.712)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0817.tar.bz2>T0817.tar.bz2</a> (0.917)</td>
+</tr>
+
+
+<tr>
+    <td>T0819</td>
+    <td>400</td>
+    <td>373</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0819.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0819.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0819.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.920)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0819.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.917)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0819.tar.bz2>T0819.tar.bz2</a> (0.923)</td>
+</tr>
+
+
+<tr>
+    <td>T0820</td>
+    <td>1550</td>
+    <td>140</td>
+    <td>Very Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0820.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0820.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0820.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.324)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0820.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.312)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0820.tar.bz2>T0820.tar.bz2</a> (0.395)</td>
+</tr>
+
+
+<tr>
+    <td>T0821</td>
+    <td>730</td>
+    <td>275</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0821.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0821.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0821.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.818)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0821.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.842)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0821.tar.bz2>T0821.tar.bz2</a> (0.868)</td>
+</tr>
+
+
+<tr>
+    <td>T0822</td>
+    <td>1550</td>
+    <td>121</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0822.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0822.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0822.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.442)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0822.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.513)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0822.tar.bz2>T0822.tar.bz2</a> (0.539)</td>
+</tr>
+
+
+<tr>
+    <td>T0823</td>
+    <td>720</td>
+    <td>296</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0823.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0823.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0823.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.779)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0823.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.781)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0823.tar.bz2>T0823.tar.bz2</a> (0.792)</td>
+</tr>
+
+
+<tr>
+    <td>T0824</td>
+    <td>1550</td>
+    <td>110</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0824.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0824.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0824.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.296)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0824.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.301)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0824.tar.bz2>T0824.tar.bz2</a> (0.336)</td>
+</tr>
+
+
+<tr>
+    <td>T0825</td>
+    <td>550</td>
+    <td>205</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0825.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0825.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0825.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.509)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0825.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.510)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0825.tar.bz2>T0825.tar.bz2</a> (0.513)</td>
+</tr>
+
+
+<tr>
+    <td>T0829</td>
+    <td>750</td>
+    <td>70</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0829.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0829.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0829.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.584)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0829.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.609)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0829.tar.bz2>T0829.tar.bz2</a> (0.649)</td>
+</tr>
+
+
+<tr>
+    <td>T0833</td>
+    <td>750</td>
+    <td>136</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0833.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0833.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0833.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.743)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0833.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.752)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0833.tar.bz2>T0833.tar.bz2</a> (0.776)</td>
+</tr>
+
+
+<tr>
+    <td>T0835</td>
+    <td>750</td>
+    <td>424</td>
+    <td>Easy</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0835.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0835.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0835.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.700)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0835.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.693)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0835.tar.bz2>T0835.tar.bz2</a> (0.726)</td>
+</tr>
+
+
+<tr>
+    <td>T0836</td>
+    <td>1550</td>
+    <td>204</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0836.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0836.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0836.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.276)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0836.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.269)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0836.tar.bz2>T0836.tar.bz2</a> (0.448)</td>
+</tr>
+
+
+<tr>
+    <td>T0837</td>
+    <td>1550</td>
+    <td>128</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0837.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0837.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0837.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.427)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0837.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.736)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0837.tar.bz2>T0837.tar.bz2</a> (0.736)</td>
+</tr>
+
+
+<tr>
+    <td>T0838</td>
+    <td>1550</td>
+    <td>154</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0838.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0838.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0838.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.543)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0838.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.539)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0838.tar.bz2>T0838.tar.bz2</a> (0.591)</td>
+</tr>
+
+
+<tr>
+    <td>T0839</td>
+    <td>750</td>
+    <td>262</td>
+    <td>Trivial</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0839.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0839.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0839.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0839.tar.bz2>T0839.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0841</td>
+    <td>630</td>
+    <td>253</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0841.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0841.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0841.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.926)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0841.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.921)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0841.tar.bz2>T0841.tar.bz2</a> (0.935)</td>
+</tr>
+
+
+<tr>
+    <td>T0842</td>
+    <td>1550</td>
+    <td>146</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0842.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0842.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0842.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0842.tar.bz2>T0842.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0843</td>
+    <td>270</td>
+    <td>369</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0843.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0843.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0843.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.924)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0843.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.925)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0843.tar.bz2>T0843.tar.bz2</a> (0.938)</td>
+</tr>
+
+
+<tr>
+    <td>T0844</td>
+    <td>1550</td>
+    <td>145</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0844.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0844.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0844.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0844.tar.bz2>T0844.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0846</td>
+    <td>1550</td>
+    <td>146</td>
+    <td>Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0846.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0846.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0846.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0846.tar.bz2>T0846.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0847</td>
+    <td>750</td>
+    <td>176</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0847.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0847.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0847.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.788)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0847.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.791)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0847.tar.bz2>T0847.tar.bz2</a> (0.803)</td>
+</tr>
+
+
+<tr>
+    <td>T0849</td>
+    <td>730</td>
+    <td>240</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0849.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0849.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0849.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.730)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0849.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.706)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0849.tar.bz2>T0849.tar.bz2</a> (0.769)</td>
+</tr>
+
+
+<tr>
+    <td>T0850</td>
+    <td>1550</td>
+    <td>190</td>
+    <td>Very Hard</td>
+    <td></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0850.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0850.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0850.QUARK_model1.pdb>QUARK_model1.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0850.tar.bz2>T0850.tar.bz2</a></td>
+</tr>
+
+
+<tr>
+    <td>T0851</td>
+    <td>710</td>
+    <td>456</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0851.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0851.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0851.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.782)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0851.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.769)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0851.tar.bz2>T0851.tar.bz2</a> (0.928)</td>
+</tr>
+
+
+<tr>
+    <td>T0854</td>
+    <td>700</td>
+    <td>212</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0854.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0854.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0854.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.794)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0854.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.791)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0854.tar.bz2>T0854.tar.bz2</a> (0.829)</td>
+</tr>
+
+
+<tr>
+    <td>T0855</td>
+    <td>1550</td>
+    <td>119</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0855.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0855.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0855.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.494)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0855.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.409)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0855.tar.bz2>T0855.tar.bz2</a> (0.629)</td>
+</tr>
+
+
+<tr>
+    <td>T0856</td>
+    <td>490</td>
+    <td>159</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.869)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.864)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.tar.bz2>T0856.tar.bz2</a> (0.880)</td>
+</tr>
+
+
+<tr>
+    <td>T0857</td>
+    <td>1550</td>
+    <td>105</td>
+    <td>Hard</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.487)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.504)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.tar.bz2>T0857.tar.bz2</a> (0.548)</td>
+</tr>
+
+
+<tr>
+    <td>T0858</td>
+    <td>720</td>
+    <td>494</td>
+    <td>Trivial</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.native.pdb>native.pdb</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.seq.txt>seq.txt</a></td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.910)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.910)</td>
+    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.tar.bz2>T0858.tar.bz2</a> (0.924)</td>
+</tr>

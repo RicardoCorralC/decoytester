@@ -1,0 +1,4 @@
+*.pdb
+*.pyc
+*.tar.bz2
+_decoySetDir/

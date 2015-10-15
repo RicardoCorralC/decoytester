@@ -8,52 +8,14 @@ import warnings
 from bs4  import BeautifulSoup
 from nativeProteinTest import *
 
-test_html = """
-<tr>
-    <td>T0856</td>
-    <td>490</td>
-    <td>159</td>
-    <td>Trivial</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.native.pdb>native.pdb</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.seq.txt>seq.txt</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.869)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.864)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0856.tar.bz2>T0856.tar.bz2</a> (0.880)</td>
-</tr>
-
-
-<tr>
-    <td>T0857</td>
-    <td>1550</td>
-    <td>105</td>
-    <td>Hard</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.native.pdb>native.pdb</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.seq.txt>seq.txt</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.487)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.504)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0857.tar.bz2>T0857.tar.bz2</a> (0.548)</td>
-</tr>
-
-
-<tr>
-    <td>T0858</td>
-    <td>720</td>
-    <td>494</td>
-    <td>Trivial</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.native.pdb>native.pdb</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.seq.txt>seq.txt</a></td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.Zhang-Server_model1.pdb>Zhang-Server_model1.pdb</a> (0.910)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.QUARK_model1.pdb>QUARK_model1.pdb</a> (0.910)</td>
-    <td><a href=http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0858.tar.bz2>T0858.tar.bz2</a> (0.924)</td>
-</tr>
-"""
-
+test_html = open('dataset_CASP11.txt','r').read()
 
 
 def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.native.pdb',
                  zhangModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.Zhang-Server_model1.pdb',
                  quarkModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.QUARK_model1.pdb',
-                 decoySet='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.tar.bz2'):
+                 decoySet='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.tar.bz2',
+                 stop=10000):
 
     print '# nativePDB:', nativePDB
     print '# zhangModel:', zhangModel
@@ -96,7 +58,7 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
     rccsDecoys = []
 
     print '\nConstructing 26d vectors for decoy set...'
-    howmany, stop = 0, 3
+    howmany = 0
     for decoyname in rccu.iter_directory_files("_decoySetDir"):
         if howmany > stop: break
         howmany += 1
@@ -120,7 +82,8 @@ def runExperiment(htmltable,clf):
         start = 5*i
         ls = links_list[start:start+5]
         nativePDB, _, zhangModel, quarkModel, decoySet = ls
-        target_name = nativePDB[nativePDB.rfind('/'):nativePDB.find('.')]
+        npdb = nativePDB[nativePDB.rfind('/')+1:]
+        target_name = npdb[:npdb.find('.')]
 
         _data = downloadData(nativePDB=nativePDB,
                              zhangModel=zhangModel,
@@ -157,7 +120,7 @@ if __name__ == '__main__':
 
     print '\n### Fitting predictor...'
     nt = native_tester()
-    nt.fit(X_native_train_set[:1000])
+    nt.fit(X_native_train_set[:])
     print '### DONE\n'
 
     runExperiment(htmltable=test_html,clf=nt)

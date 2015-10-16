@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
     print '\n### Fitting predictor...'
     nt = native_tester()
-    nt.fit(X_native_train_set[:])
+    nt.fit(np.vstack([X_native_train_set[:1000],X_native_test_set[:1000]]))
     print '### DONE\n'
 
     runExperiment(htmltable=test_html,clf=nt)

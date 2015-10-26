@@ -32,18 +32,18 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
     urllib.urlretrieve (decoySet, "_decoySet.tar.bz2")
     print '[DONE]\n'
 
-    print 'Uncompressing data...'
-    opener, mode = tarfile.open, 'r:bz2'
-    cwd = os.getcwd()
-    if not os.path.exists("_decoySetDir"):
-        os.makedirs("_decoySetDir")
-    os.chdir("_decoySetDir")
+    #print 'Uncompressing data...'
+    #opener, mode = tarfile.open, 'r:bz2'
+    #cwd = os.getcwd()
+    #if not os.path.exists("_decoySetDir"):
+    #    os.makedirs("_decoySetDir")
+    #os.chdir("_decoySetDir")
 
-    file = opener("../_decoySet.tar.bz2", mode)
-    file.extractall()
-    file.close()
-    os.chdir(cwd)
-    print '[Done]'
+    f#ile = opener("../_decoySet.tar.bz2", mode)
+    #file.extractall()
+    #file.close()
+    #os.chdir(cwd)
+    #print '[Done]'
 
     print '\nConstructing 26d vectors...'
 
@@ -57,15 +57,15 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
 
     rccsDecoys = []
 
-    print '\nConstructing 26d vectors for decoy set...'
-    howmany = 0
-    for decoyname in rccu.iter_directory_files("_decoySetDir"):
-        if howmany > stop: break
-        howmany += 1
-        _decoy = rcco.RCC(decoyname,None).RCCvector
-        rccsDecoys.append(_decoy)
-        print _decoy
-        break
+    #print '\nConstructing 26d vectors for decoy set...'
+    #howmany = 0
+    #for decoyname in rccu.iter_directory_files("_decoySetDir"):
+    #    if howmany > stop: break
+    #    howmany += 1
+    #    _decoy = rcco.RCC(decoyname,None).RCCvector
+    #    rccsDecoys.append(_decoy)
+    #    print _decoy
+    #    break
 
     print '[DONE]'
 

@@ -39,7 +39,7 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
     #    os.makedirs("_decoySetDir")
     #os.chdir("_decoySetDir")
 
-    f#ile = opener("../_decoySet.tar.bz2", mode)
+    #file = opener("../_decoySet.tar.bz2", mode)
     #file.extractall()
     #file.close()
     #os.chdir(cwd)

@@ -65,7 +65,8 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
         _decoy = rcco.RCC(decoyname,None).RCCvector
         rccsDecoys.append(_decoy)
         print _decoy
-    #    break
+        #BREAK here
+        break
 
     print '[DONE]'
 
@@ -118,10 +119,13 @@ if __name__ == '__main__':
     X_native_test_set = np.loadtxt('nativfoldedprots_rcc.csv', dtype="float", delimiter=",")
     #decoys_4states_rcc.csv
     X_decoy_set = np.loadtxt('decoys_4states_rcc.csv', dtype="float", delimiter=",")
+    #CATHFINAL.txt
+    X_cath_domains_set = np.loadtxt('CATHFINAL.txt', dtype="float",usecols=(range(1,27)), delimiter=",")
+
 
     print '\n### Fitting predictor...'
     nt = native_tester()
-    nt.fit(np.vstack([X_native_train_set[:],X_native_test_set[:]]))
+    nt.fit(np.vstack([X_native_train_set[:],X_native_test_set[:],X_cath_domains_set[:]]))
     print '### DONE\n'
 
     runExperiment(htmltable=test_html,clf=nt)

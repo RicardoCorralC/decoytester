@@ -90,10 +90,7 @@ def main():
 
     #CATHFINAL.txt
     X_cath_domains_set = np.loadtxt('CATHFINAL.txt', dtype="float",usecols=(range(1,27)), delimiter=",")
-
-    print X_cath_domains_set
-    print X_cath_domains_set.shape
-    exit()
+    
 
     nt = native_tester()
     nt.fit(X_native_train_set[:1000])

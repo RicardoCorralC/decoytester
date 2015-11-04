@@ -11,8 +11,10 @@ from sklearn.neighbors import kneighbors_graph
 
 class native_tester(BaseEstimator):
 
-    def __init__(self):
+    def __init__(self,nu=0.5,gamma=0.0):
         self.oneClassBaseFunctionsList = []
+        self.nu = nu
+        self.gamma = gamma
 
     def fit(self,X,n_iter=5,random=True):
     #    if not random:
@@ -21,7 +23,10 @@ class native_tester(BaseEstimator):
 
                 print "\nIteration %d over %d samples" %(i,len(x_train))
 
-                clf = svm.OneClassSVM(nu=0.5, kernel="rbf", gamma=0.0)
+                if len(x_train) == 0:
+                    break
+
+                clf = svm.OneClassSVM(nu=self.nu, kernel="rbf", gamma=self.gamma)
                 clf.fit(x_train)
 
                 self.oneClassBaseFunctionsList.append(clf)
@@ -82,6 +87,13 @@ def main():
     X_native_test_set = np.loadtxt('nativfoldedprots_rcc.csv', dtype="float", delimiter=",")
     #decoys_4states_rcc.csv
     X_decoy_set = np.loadtxt('decoys_4states_rcc.csv', dtype="float", delimiter=",")
+
+    #CATHFINAL.txt
+    X_cath_domains_set = np.loadtxt('CATHFINAL.txt', dtype="float",usecols=(range(1,27)), delimiter=",")
+
+    print X_cath_domains_set
+    print X_cath_domains_set.shape
+    exit()
 
     nt = native_tester()
     nt.fit(X_native_train_set[:1000])

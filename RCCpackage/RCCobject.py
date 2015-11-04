@@ -36,7 +36,9 @@ class RCCbase(object):
 		self.HG = nx.Graph()
 		for linea in fin:
 			if linea.strip():
-				a, b = map(str,linea.strip().split())
+				_l = map(str,linea.strip().split())
+				if len(_l) != 2: continue
+				a, b = _l
 				a_insegment, b_insegment = True, True
 
 				if chain_segments!=[]:

@@ -7,6 +7,7 @@ import os
 import warnings
 from bs4  import BeautifulSoup
 from nativeProteinTest import *
+import sys
 
 test_html = open('dataset_CASP11.txt','r').read()
 
@@ -87,10 +88,13 @@ def runExperiment(htmltable,clf):
         npdb = nativePDB[nativePDB.rfind('/')+1:]
         target_name = npdb[:npdb.find('.')]
 
-        _data = downloadData(nativePDB=nativePDB,
-                             zhangModel=zhangModel,
-                             quarkModel=quarkModel,
-                             decoySet=decoySet)
+        try:
+            _data = downloadData(nativePDB=nativePDB,
+                                 zhangModel=zhangModel,
+                                 quarkModel=quarkModel,
+                                 decoySet=decoySet)
+        except:
+            print sys.exc_info()[0]
 
         nativePDB_pred = str(clf.predict(_data['native'])[0])
         zhangModel_pred = str(clf.predict(_data['zhang'])[0])

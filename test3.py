@@ -28,4 +28,3 @@ print 'No. of inliers in outlier set: %d' %n_error_outliers
 for i in xrange(len(y_pred_test)):
 	if y_pred_test[i] == -1:
 		print i, X_test[i]
-

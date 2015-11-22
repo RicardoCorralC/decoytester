@@ -1,22 +1,25 @@
 # Ricardo Corral Corral, October 2015
+import os
+import sys
+import tarfile
 import urllib
+import warnings
+
+from bs4 import BeautifulSoup
+
 import RCCpackage.RCCobject as rcco
 import RCCpackage.RCCutils as rccu
-import tarfile
-import os
-import warnings
-from bs4  import BeautifulSoup
 from nativeProteinTest import *
-import sys
 
-test_html = open('dataset_CASP11.txt','r').read()
+test_html = open('dataset_CASP11.txt', 'r').read()
 
 
-def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.native.pdb',
-                 zhangModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.Zhang-Server_model1.pdb',
-                 quarkModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.QUARK_model1.pdb',
-                 decoySet='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.tar.bz2',
-                 stop=5):
+def downloadData(
+        nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.native.pdb',
+        zhangModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.Zhang-Server_model1.pdb',
+        quarkModel='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.QUARK_model1.pdb',
+        decoySet='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T0759.tar.bz2',
+        stop=5):
 
     print '# nativePDB:', nativePDB
     print '# zhangModel:', zhangModel
@@ -24,13 +27,13 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
     print '# decoySet:', decoySet
 
     print '\nRetrieving data...'
-    urllib.urlretrieve (nativePDB, "_native.pdb")
-    print '.'*10
-    urllib.urlretrieve (zhangModel, "_zhangModel.pdb")
-    print '.'*10
-    urllib.urlretrieve (quarkModel, "_quarkModel.pdb")
-    print '.'*10
-    urllib.urlretrieve (decoySet, "_decoySet.tar.bz2")
+    urllib.urlretrieve(nativePDB, "_native.pdb")
+    print '.' * 10
+    urllib.urlretrieve(zhangModel, "_zhangModel.pdb")
+    print '.' * 10
+    urllib.urlretrieve(quarkModel, "_quarkModel.pdb")
+    print '.' * 10
+    urllib.urlretrieve(decoySet, "_decoySet.tar.bz2")
     print '[DONE]\n'
 
     print 'Uncompressing data...'
@@ -48,9 +51,9 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
 
     print '\nConstructing 26d vectors...'
 
-    rccsNative = rcco.RCC("_native.pdb",None).RCCvector
-    rccsZhang = rcco.RCC("_zhangModel.pdb",None).RCCvector
-    rccsQUARK = rcco.RCC("_quarkModel.pdb",None).RCCvector
+    rccsNative = rcco.RCC("_native.pdb", None).RCCvector
+    rccsZhang = rcco.RCC("_zhangModel.pdb", None).RCCvector
+    rccsQUARK = rcco.RCC("_quarkModel.pdb", None).RCCvector
 
     print rccsNative
     print rccsZhang
@@ -63,7 +66,7 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
     for decoyname in rccu.iter_directory_files("_decoySetDir"):
         if howmany > stop: break
         howmany += 1
-        _decoy = rcco.RCC(decoyname,None).RCCvector
+        _decoy = rcco.RCC(decoyname, None).RCCvector
         rccsDecoys.append(_decoy)
         print _decoy
         #BREAK here
@@ -71,67 +74,76 @@ def downloadData(nativePDB='http://zhanglab.ccmb.med.umich.edu/decoys/casp11/T07
 
     print '[DONE]'
 
-    return {'native':rccsNative,
-            'zhang':rccsZhang,
-            'quark':rccsQUARK,
-            'decoys':rccsDecoys}
+    return {'native': rccsNative,
+            'zhang': rccsZhang,
+            'quark': rccsQUARK,
+            'decoys': rccsDecoys}
 
-def runExperiment(htmltable,clf):
+
+def runExperiment(htmltable, clf):
     parsed_html = BeautifulSoup(htmltable)
-    links_list = [ a['href'] for a in parsed_html.find_all('a') ]
-    fout = open('RESULTS.txt','a',0)
-    for i in xrange(len(links_list)/5):
-        print '\n### Starting new dataset'
-        start = 5*i
-        ls = links_list[start:start+5]
-        nativePDB, _, zhangModel, quarkModel, decoySet = ls
-        npdb = nativePDB[nativePDB.rfind('/')+1:]
-        target_name = npdb[:npdb.find('.')]
-
+    links_list = [a['href'] for a in parsed_html.find_all('a')]
+    fout = open('RESULTS.txt', 'a', 0)
+    for i in xrange(len(links_list) / 5):
         try:
+            print '\n### Starting new dataset'
+            start = 5 * i
+            ls = links_list[start:start + 5]
+            nativePDB, _, zhangModel, quarkModel, decoySet = ls
+            npdb = nativePDB[nativePDB.rfind('/') + 1:]
+            target_name = npdb[:npdb.find('.')]
+
             _data = downloadData(nativePDB=nativePDB,
                                  zhangModel=zhangModel,
                                  quarkModel=quarkModel,
                                  decoySet=decoySet)
+
+            nativePDB_pred = str(clf.predict(_data['native'])[0])
+            zhangModel_pred = str(clf.predict(_data['zhang'])[0])
+            quarkModel_pred = str(clf.predict(_data['quark'])[0])
+            decoySet_pred = clf.predict(_data['decoys'])
+            decoySet_plus = decoySet_pred.count(1)
+            decoySet_minus = decoySet_pred.count(-1)
+
+            print 'nativePDB_pred', nativePDB_pred
+            print 'zhangModel_pred', zhangModel_pred
+            print 'quarkModel_pred', quarkModel_pred
+            print 'decoySet_pred', decoySet_pred
+
+            fout.write('%s,%s,%s,%s,%d,%d,%s\n' %
+                       (target_name, nativePDB_pred, zhangModel_pred,
+                        quarkModel_pred, decoySet_plus, decoySet_minus,
+                        ','.join([str(a) for a in decoySet_pred])))
+
         except:
             print sys.exc_info()[0]
-
-        nativePDB_pred = str(clf.predict(_data['native'])[0])
-        zhangModel_pred = str(clf.predict(_data['zhang'])[0])
-        quarkModel_pred = str(clf.predict(_data['quark'])[0])
-        decoySet_pred = clf.predict(_data['decoys'])
-        decoySet_plus = decoySet_pred.count(1)
-        decoySet_minus = decoySet_pred.count(-1)
-
-        print 'nativePDB_pred', nativePDB_pred
-        print 'zhangModel_pred', zhangModel_pred
-        print 'quarkModel_pred', quarkModel_pred
-        print 'decoySet_pred', decoySet_pred
-
-        fout.write('%s,%s,%s,%s,%d,%d,%s\n' % (target_name,nativePDB_pred,
-                                               zhangModel_pred,
-                                               quarkModel_pred,
-                                               decoySet_plus,
-                                               decoySet_minus,
-                                               ','.join([str(a) for a in decoySet_pred])))
 
 
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
-    X_native_train_set = np.loadtxt('culled_pdb_rcc.csv', dtype="float", delimiter=",")
+    X_native_train_set = np.loadtxt('culled_pdb_rcc.csv',
+                                    dtype="float",
+                                    delimiter=",")
     #nativfoldedprots_rcc.csv
-    X_native_test_set = np.loadtxt('nativfoldedprots_rcc.csv', dtype="float", delimiter=",")
+    X_native_test_set = np.loadtxt('nativfoldedprots_rcc.csv',
+                                   dtype="float",
+                                   delimiter=",")
     #decoys_4states_rcc.csv
-    X_decoy_set = np.loadtxt('decoys_4states_rcc.csv', dtype="float", delimiter=",")
+    X_decoy_set = np.loadtxt('decoys_4states_rcc.csv',
+                             dtype="float",
+                             delimiter=",")
     #CATHFINAL.txt
-    X_cath_domains_set = np.loadtxt('CATHFINAL.txt', dtype="float",usecols=(range(1,27)), delimiter=",")
-
+    X_cath_domains_set = np.loadtxt('CATHFINAL.txt',
+                                    dtype="float",
+                                    usecols=(range(1, 27)),
+                                    delimiter=",")
 
     print '\n### Fitting predictor...'
     nt = native_tester()
-    nt.fit(np.vstack([X_native_train_set[:],X_native_test_set[:],X_cath_domains_set[:]]))
+    nt.fit(np.vstack([X_native_train_set[:], X_native_test_set[:],
+                      X_cath_domains_set[:]]))
     print '### DONE\n'
 
-    runExperiment(htmltable=test_html,clf=nt)
+    runExperiment(htmltable=test_html, clf=nt)
     #dataset = downloadData()
     #print dataset
